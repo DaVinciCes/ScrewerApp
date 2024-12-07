@@ -17,7 +17,7 @@ class MyWindow(QMainWindow):
         self.b1.setText("Press")
         self.b1.clicked.connect(self.clicked)
     def clicked(self):
-        self.label.setText("Botón presionado!!!! Listoooooo V2")
+        self.label.setText("Botón presionado!!!! Listoooooo V3")
         self.updatewin()
     def updatewin(self):
         self.label.adjustSize()
